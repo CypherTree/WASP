@@ -1,0 +1,6 @@
+framework module Pods_WASPTests {
+  umbrella header "Pods-WASPTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

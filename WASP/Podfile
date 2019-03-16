@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'WASP' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'FBSDKLoginKit'
+  pod 'FacebookCore'
+	pod 'FacebookLogin'
+	pod 'FacebookShare'
+	pod 'Firebase/Database'
+	pod 'GooglePlaces', '= 3.0.3'
+	pod 'GooglePlacePicker', '= 3.0.3'
+	pod 'GoogleMaps', '= 3.0.3'
+  # Pods for WASP
+
+  target 'WASPTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'WASPUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
